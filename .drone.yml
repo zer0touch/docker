@@ -1,0 +1,9 @@
+image: ubuntu:14.04
+script:
+  - echo "hello"
+services:
+  - postgres
+notify:
+  email:
+  recipients:
+    - email@example.com
